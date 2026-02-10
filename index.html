@@ -2,6 +2,12 @@
   <meta charset="utf-8">
   <title>ShardaEn</title>
   <base href="/sharda-en-website/">
+  <script>
+    if (window.location.pathname === '/sharda-en-website/' && !window.location.hash) {
+      window.location.replace('/sharda-en-website/#/home');
+    }
+  </script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 
